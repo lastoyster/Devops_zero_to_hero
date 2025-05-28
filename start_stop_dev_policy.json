@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StartStopDescribeInstances",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:StartInstances",
+                "ec2:StopInstances",
+                "ec2:DescribeInstances"
+            ],start_stop_dev_policy.json
+
+            "Resource": "*"
+        }
+    ]
+}
