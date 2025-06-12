@@ -50,17 +50,11 @@ Update Terraform Variables
 
 In terraform/terraform.tfvars, add your values:
 
-hcl
-Copy
-Edit
 region    = "us-east-1"
 app_name  = "hello-fargate"
 ecr_image = "<your ECR image URL>"
 Initialize and Apply Terraform
 
-bash
-Copy
-Edit
 cd terraform
 terraform init
 terraform plan
