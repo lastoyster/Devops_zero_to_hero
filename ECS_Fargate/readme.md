@@ -3,16 +3,6 @@
 This is a Simple Python Flask web application that returns an HTML message:  
 It’s designed to run as a containerized app on **AWS ECS Fargate**, using **Terraform** for infrastructure provisioning.
 
-## 🧱 Project Structure
-
- app.py
- requirements.txt 
- Dockerfile # 
- terraform/ # Terraform configuration files
- main.tf
- variables.tf
- outputs.tf
- terraform.tfvars
 
 
 ## 🔧 Prerequisites
