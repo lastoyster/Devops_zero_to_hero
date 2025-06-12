@@ -5,14 +5,14 @@ It’s designed to run as a containerized app on **AWS ECS Fargate**, using **Te
 
 ## 🧱 Project Structure
 
-├── app.py # Main Flask application
-├── requirements.txt # Python dependencies
-├── Dockerfile # Build instructions for Docker image
-├── terraform/ # Terraform configuration files
-│ ├── main.tf
-│ ├── variables.tf
-│ ├── outputs.tf
-│ └── terraform.tfvars
+ app.py
+ requirements.txt 
+ Dockerfile # 
+ terraform/ # Terraform configuration files
+ main.tf
+ variables.tf
+ outputs.tf
+ terraform.tfvars
 
 
 ## 🔧 Prerequisites
