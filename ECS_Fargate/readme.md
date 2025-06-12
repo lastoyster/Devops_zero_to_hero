@@ -34,16 +34,11 @@ aws ecr get-login-password --region <your-region> \
 aws ecr create-repository --repository-name hello-fargate-app
 Build and Tag Docker Image
 
-bash
-Copy
-Edit
 docker build -t hello-fargate-app .
 docker tag hello-fargate-app:latest <aws_account_id>.dkr.ecr.<your-region>.amazonaws.com/hello-fargate-app:latest
 Push to ECR
 
 bash
-Copy
-Edit
 docker push <aws_account_id>.dkr.ecr.<your-region>.amazonaws.com/hello-fargate-app:latest
 🌍 Deploy with Terraform on ECS Fargate
 Update Terraform Variables
