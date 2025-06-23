@@ -10,15 +10,6 @@ Introduction:
 Create EC2 Instance using Terraform and provision a webserver with userdata.
 Step-02: In c1-versions.tf - Create Terraform Settings Block
 
-terraform {
-  required_version = "~> 0.14" # which means any version equal & above 0.14 like 0.15, 0.16 etc and < 1.xx
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 3.0"
-    }
-  }
-}
 Step-03: In c1-versions.tf - Create Terraform Providers Block
 Understand about Terraform Providers
 Configure AWS Credentials in the AWS CLI if not configured
